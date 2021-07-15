@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedbank.HR.SAP.Api", "Nedbank.HR.SAP.Api\Nedbank.HR.SAP.Api.csproj", "{C8D7C028-506E-494B-A785-84AA85B43757}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedbank.HR.SAP.BAL", "Nedbank.HR.SAP.Application\Nedbank.HR.SAP.BAL.csproj", "{C7452383-66C0-4EA7-8A2C-D44364CA7F32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedbank.HR.SAP.Service", "Nedbank.HR.SAP.Service\Nedbank.HR.SAP.Service.csproj", "{0E6FE9B5-AED4-4A4A-B2D5-D926CA301A90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedbank.HR.SAP.DAL", "Nedbank.HR.SAP.DAL\Nedbank.HR.SAP.DAL.csproj", "{FB6631A1-5A1D-4B88-9B78-8A86CD904E39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedbank.HR.SAP.Shared", "Nedbank.HR.SAP.Shared\Nedbank.HR.SAP.Shared.csproj", "{EE2F5D83-F625-4F0C-9043-71069C38124C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nedbank.HR.SAP.Api.Test", "Nedbank.HR.SAP.Api.Tests\Nedbank.HR.SAP.Api.Test.csproj", "{F9917654-5F38-40C3-8606-6C9B51271038}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8D7C028-506E-494B-A785-84AA85B43757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D7C028-506E-494B-A785-84AA85B43757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D7C028-506E-494B-A785-84AA85B43757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D7C028-506E-494B-A785-84AA85B43757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7452383-66C0-4EA7-8A2C-D44364CA7F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7452383-66C0-4EA7-8A2C-D44364CA7F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7452383-66C0-4EA7-8A2C-D44364CA7F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7452383-66C0-4EA7-8A2C-D44364CA7F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6FE9B5-AED4-4A4A-B2D5-D926CA301A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6FE9B5-AED4-4A4A-B2D5-D926CA301A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6FE9B5-AED4-4A4A-B2D5-D926CA301A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6FE9B5-AED4-4A4A-B2D5-D926CA301A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6631A1-5A1D-4B88-9B78-8A86CD904E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6631A1-5A1D-4B88-9B78-8A86CD904E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6631A1-5A1D-4B88-9B78-8A86CD904E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6631A1-5A1D-4B88-9B78-8A86CD904E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2F5D83-F625-4F0C-9043-71069C38124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2F5D83-F625-4F0C-9043-71069C38124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2F5D83-F625-4F0C-9043-71069C38124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2F5D83-F625-4F0C-9043-71069C38124C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9917654-5F38-40C3-8606-6C9B51271038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9917654-5F38-40C3-8606-6C9B51271038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9917654-5F38-40C3-8606-6C9B51271038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9917654-5F38-40C3-8606-6C9B51271038}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89C75FBE-C777-4868-9C9B-C80B83A741B7}
+	EndGlobalSection
+EndGlobal

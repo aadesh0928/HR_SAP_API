@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Nedbank.EAPI.RestApiModels.Skynet100" Version="1.1.0" />
+    <PackageReference Include="Nedbank.EAPI.SDK" Version="0.1.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nedbank.HR.SAP.Service\Nedbank.HR.SAP.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
